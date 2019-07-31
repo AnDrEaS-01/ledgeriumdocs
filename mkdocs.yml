@@ -1,0 +1,191 @@
+# Copyright (c) 2016-2019 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: Ledgerium Documents
+site_description: Documentations for Ledgerium Blockchain
+site_author: Rahul Golash
+site_url: https://github.com/ledgerium-io/ledgeriumdocs/
+
+# Repository
+repo_name: ledgerium-io/ledgeriumdocs
+repo_url: https://github.com/ledgerium-io/ledgeriumdocs/
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2019 The Block Ledger Pty Ltd'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Arial
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: https://www.ledgerium.io/
+    - type: github-alt
+      link: https://github.com/ledgerium-io
+    - type: twitter
+      link: https://twitter.com/ledgerium
+    - type: linkedin
+      link: https://www.linkedin.com/company/blockledger
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - What is Ledgerium: What_is_Ledgerium.md
+  - Ledgerium Foundation: The_Ledgerium_Foundation.md
+  - Community: Community.md
+  - Latest Release: The_Ledgerium_Latest_Release.md
+  - Decentralized Apps: Web_3_A_platform_for_decentralized_apps.md
+  - Accessing Contracts and Transactions: Accessing_Contracts_and_Transactions.md
+  - Account Management: Account_Management.md
+  - Account Types, Gas, and Transactions: Account_Types,_Gas,_and_Transactions.md
+  - Backup and restore accounts: Backup_and_restore_accounts.md
+  - Connecting as a client: Connecting_as_a_client.md
+  - Connecting to Ledgerium Core: Connecting_to_Ledgerium_Core.md
+  - Connecting to Ledgerium TestNet: Connecting_to_Ledgerium_TestNet.md
+  - Connecting to the Network: Connecting_to_the_Network.md
+  - Consensus (Istanbul IFBT): Consensus_(Istanbul_IFBT).md
+  - Consensus Mecahnism (IBFT): Consensus_Mecahnism_(IBFT).md
+  - Console: Console.md
+  - Contracts: Contracts.md
+  - Creating an account: Creating_an_account.md
+  - Creating public transactions contracts: Creating_public_transactions_contracts.md
+  - DAO: DAO.md
+  - Deploying smart contracts: Deploying_smart_contracts.md
+  - Design: Design.md
+  - EVM: EVM.md
+  - FullNode vs Light Node: Full_Node_vs_Light_Node.md
+  - Gas and XLG: Gas_and_XLG.md
+  - GoLang: GoLang.md
+  - Governance_UI: Governance_UI.md
+  - Higher performance: Higher_performance.md
+  - How to get XLG: How_to_get_XLG.md
+  - Importing an unencrypted private_key: Importing_an_unencrypted_private_key.md
+  - Installing LedgeriumCore: Installing_LedgeriumCore.md
+  - Istanbul RPC API: Istanbul_RPC_API.md
+  - Keyfiles: Keyfiles.md
+  - Ledgerium Application: Ledgerium_Application.md
+  - Ledgerium Block Explorer: Ledgerium_Block_Explorer.md
+  - Ledgerium Core: Ledgerium_Core.md
+  - Ledgerium Faucet: Ledgerium_Faucet.md
+  - Ledgerium Test Suite: Ledgerium_Test_Suite.md
+  - Ledgerium Tools: Ledgerium_Tools.md
+  - Ledgerium Wallet: Ledgerium_Wallet.md
+  - Ledgerium: Ledgerium.md
+  - LedgeriumWeb3: LedgeriumWeb3.md
+  - LedgeriumWeb3js: LedgeriumWeb3js.md
+  - Manual backup restore: Manual_backup_restore.md
+  - Modified privacy API: Modified_privacy_API.md
+  - NodeJS: NodeJS.md
+  - Peer Permissioning Governance: Peer_Permissioning_Governance.md
+  - Prerequisites: Prerequisites.md
+  - Privacy Transparency: Privacy___Transparency.md
+  - Questions: Questions.md
+  - Quorum contract design considerations: Quorum_contract_design_considerations.md
+  - Quorum: Quorum.md
+  - RPC: RPC.md
+  - Running a Ledgerium Node: Running_a_Ledgerium_Node.md
+  - Running a validator Node: Running_a_validator_Node.md
+  - Sending XLG: Sending_XLG.md
+  - Setting up a local private testnet: Setting_up_a_local_private_testnet.md
+  - Smart Contracts: Smart_Contracts.md
+  - Solidity: Solidity.md
+  - Test Networks: Test_Networks.md
+  - The Ledgerium network: The_Ledgerium_network.md
+  - Update an account: Update_an_account.md
+  - Using Ledgerium account new: Using_Ledgerium_account_new.md
+  - Using Ledgerium console: Using_Ledgerium_console.md
+  - Using Ledgerium: Using_Ledgerium.md
+  - Viewing Contracts and Transactions: Viewing_Contracts_and_Transactions.md
+  - Wallets: Wallets.md
+  - What is XLG: What_is_XLG.md
+  - Words: Words.md
+  - XLG Reward: XLG_Reward.md
+  - XLG Supply: XLG_supply.md
+  - XLG: XLG.md
+  - z: z.md
+  - Introduction Background: Introduction_Background.md
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto

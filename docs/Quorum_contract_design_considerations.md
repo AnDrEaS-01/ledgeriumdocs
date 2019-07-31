@@ -1,0 +1,2 @@
+Quorum contract design considerations
+=====================================
