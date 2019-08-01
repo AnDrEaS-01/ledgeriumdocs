@@ -112,15 +112,15 @@ This will show us:
     -   Validator/Node data
     -   Transactions statistics
 
-![image](images/3000.png)
+![image](../images/3000.png)
 
 We also have the Quorum dashboard accessible by http://localhost:9999
 
-![image](images/9999.png)
+![image](../images/9999.png)
 
 And the Governance user intreface accessible by http://localhost:3545
 
-![image](images/governance.png)
+![image](../images/governance.png)
 
 Note :
 

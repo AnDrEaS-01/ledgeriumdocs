@@ -319,7 +319,7 @@ contract when it wants to actually send the GavCoin to either Alice or
 Bob (or, more precisely, Alice or Bob's forwarding contract). We can
 show the relationships between the accounts thus:
 
-![image](images/contract_relationship.png)
+![image](../images/contract_relationship.png)
 
 When Bob wants to finalize the bet, the following steps happen:
 
@@ -350,7 +350,7 @@ some amount and increases the value in the entry corresponding to Bob's
 forwarding contract's address. We can see these steps in the following
 diagram:
 
-![image](images/contract_relationship2.png)
+![image](../images/contract_relationship2.png)
 
 Signing transactions offline
 ----------------------------

@@ -11,9 +11,9 @@ faster we satisify the condition, the faster mining restarts. However,
 when mining has been stopped for \>2 hours, it has been observed mining
 will not resume again.
 
-![image](images/testresult1.png)
+![image](../images/testresult1.png)
 
-![image](images/testresult2.png)
+![image](../images/testresult2.png)
 
 Quorum Acceptance Tests
 -----------------------

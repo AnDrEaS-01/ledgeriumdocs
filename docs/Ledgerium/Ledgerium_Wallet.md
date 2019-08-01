@@ -17,4 +17,4 @@ Run (Chrome)
 -   Click load unpacked
 -   Load from metamask-extension/dist/chrome/
 
-![image](images/wallet.png)
+![image](../images/wallet.png)

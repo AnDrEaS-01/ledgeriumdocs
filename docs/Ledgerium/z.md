@@ -107,7 +107,7 @@ Accounts
     2.  Unzip the downloaded folder and run the Ethereum-Wallet
         executable file.
 
-    ![downloading-mist](images/51Downloading.png)
+    ![downloading-mist](../images/51Downloading.png)
 
     3.  Wait for the blockchain to fully sync, then follow the
         instructions on the screen and your first account will be
@@ -116,7 +116,7 @@ Accounts
         will see the account you created during the installation
         process. By default it will be named MAIN ACCOUNT (ETHERBASE).
 
-    ![opening-screen](images/51OpeningScreen.png)
+    ![opening-screen](../images/51OpeningScreen.png)
 
     5.  Creating additional accounts is easy; just click on ADD ACCOUNT
         in the app’s main screen and enter the required password.
@@ -394,7 +394,7 @@ Accounts
     designated area and enter your password to import your presale
     account.
 
-    ![presale-import](images/51PresaleImportInstall.png)
+    ![presale-import](../images/51PresaleImportInstall.png)
 
     If you choose not to import your presale wallet during installation
     of the app, you can import it at any time by selecting the

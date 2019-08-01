@@ -18,4 +18,4 @@ Your local testnet will create a faucet and will be accessible at
 
 -   <http://localhost:5577>
 
-![image](images/faucet.png)
+![image](../images/faucet.png)

@@ -68,18 +68,18 @@ If you are a voted in Validator
 
 You will be showing up on this list
 
-![image](images/current_admins.png)
+![image](../images/current_admins.png)
 
 If you are an addon node that has not been voted in as a Validator
 ------------------------------------------------------------------
 
 You will be showing up on this list
 
-![image](images/peer_list.png)
+![image](../images/peer_list.png)
 
 Current voting status
 ---------------------
 
 This list will show what who is voting for what decision
 
-![image](images/voting_status.png)
+![image](../images/voting_status.png)

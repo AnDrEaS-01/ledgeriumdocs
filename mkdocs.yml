@@ -110,80 +110,134 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - What is Ledgerium: What_is_Ledgerium.md
-  - Ledgerium Foundation: The_Ledgerium_Foundation.md
-  - Community: Community.md
-  - Latest Release: The_Ledgerium_Latest_Release.md
-  - Decentralized Apps: Web_3_A_platform_for_decentralized_apps.md
-  - Accessing Contracts and Transactions: Accessing_Contracts_and_Transactions.md
-  - Account Management: Account_Management.md
-  - Account Types, Gas, and Transactions: Account_Types,_Gas,_and_Transactions.md
-  - Backup and restore accounts: Backup_and_restore_accounts.md
-  - Connecting as a client: Connecting_as_a_client.md
-  - Connecting to Ledgerium Core: Connecting_to_Ledgerium_Core.md
-  - Connecting to Ledgerium TestNet: Connecting_to_Ledgerium_TestNet.md
-  - Connecting to the Network: Connecting_to_the_Network.md
-  - Consensus (Istanbul IFBT): Consensus_(Istanbul_IFBT).md
-  - Consensus Mecahnism (IBFT): Consensus_Mecahnism_(IBFT).md
-  - Console: Console.md
-  - Contracts: Contracts.md
-  - Creating an account: Creating_an_account.md
-  - Creating public transactions contracts: Creating_public_transactions_contracts.md
-  - DAO: DAO.md
-  - Deploying smart contracts: Deploying_smart_contracts.md
-  - Design: Design.md
-  - EVM: EVM.md
-  - FullNode vs Light Node: Full_Node_vs_Light_Node.md
-  - Gas and XLG: Gas_and_XLG.md
-  - GoLang: GoLang.md
-  - Governance_UI: Governance_UI.md
-  - Higher performance: Higher_performance.md
-  - How to get XLG: How_to_get_XLG.md
-  - Importing an unencrypted private_key: Importing_an_unencrypted_private_key.md
-  - Installing LedgeriumCore: Installing_LedgeriumCore.md
-  - Istanbul RPC API: Istanbul_RPC_API.md
-  - Keyfiles: Keyfiles.md
-  - Ledgerium Application: Ledgerium_Application.md
-  - Ledgerium Block Explorer: Ledgerium_Block_Explorer.md
-  - Ledgerium Core: Ledgerium_Core.md
-  - Ledgerium Faucet: Ledgerium_Faucet.md
-  - Ledgerium Test Suite: Ledgerium_Test_Suite.md
-  - Ledgerium Tools: Ledgerium_Tools.md
-  - Ledgerium Wallet: Ledgerium_Wallet.md
-  - Ledgerium: Ledgerium.md
-  - LedgeriumWeb3: LedgeriumWeb3.md
-  - LedgeriumWeb3js: LedgeriumWeb3js.md
-  - Manual backup restore: Manual_backup_restore.md
-  - Modified privacy API: Modified_privacy_API.md
-  - NodeJS: NodeJS.md
-  - Peer Permissioning Governance: Peer_Permissioning_Governance.md
-  - Prerequisites: Prerequisites.md
-  - Privacy Transparency: Privacy___Transparency.md
-  - Questions: Questions.md
-  - Quorum contract design considerations: Quorum_contract_design_considerations.md
-  - Quorum: Quorum.md
-  - RPC: RPC.md
-  - Running a Ledgerium Node: Running_a_Ledgerium_Node.md
-  - Running a validator Node: Running_a_validator_Node.md
-  - Sending XLG: Sending_XLG.md
-  - Setting up a local private testnet: Setting_up_a_local_private_testnet.md
-  - Smart Contracts: Smart_Contracts.md
-  - Solidity: Solidity.md
-  - Test Networks: Test_Networks.md
-  - The Ledgerium network: The_Ledgerium_network.md
-  - Update an account: Update_an_account.md
-  - Using Ledgerium account new: Using_Ledgerium_account_new.md
-  - Using Ledgerium console: Using_Ledgerium_console.md
-  - Using Ledgerium: Using_Ledgerium.md
-  - Viewing Contracts and Transactions: Viewing_Contracts_and_Transactions.md
-  - Wallets: Wallets.md
-  - What is XLG: What_is_XLG.md
-  - Words: Words.md
-  - XLG Reward: XLG_Reward.md
-  - XLG Supply: XLG_supply.md
-  - XLG: XLG.md
-  - z: z.md
-  - Introduction Background: Introduction_Background.md
+  # - Getting Started:
+  - Overview: Quorum/Getting Started/Getting Started Overview.md
+  - Installing: Quorum/Getting Started/Installing.md
+  # - Quorum Examples:
+  - Overview: Quorum/Getting Started/Quorum-Examples.md
+  - 7nodes Set Up: Quorum/Getting Started/7Nodes-Setup.md
+  - 7nodes Example: Quorum/Getting Started/7Nodes.md
+  - Creating a Network From Scratch: Quorum/Getting Started/Creating-A-Network-From-Scratch.md
+  - Running Quorum: Quorum/Getting Started/running.md
+  - Quorum API: Quorum/Getting Started/api.md
+  # - Consensus:
+  - Consensus: Quorum/Consensus/Consensus.md
+  - Istanbul: Quorum/Consensus/istanbul-rpc-api.md
+  - Transaction Processing: Quorum/Transaction Processing/Transaction Processing.md
+  # - Security Framework:
+  - Overview: Quorum/Security/Framework/Overview.md
+  # - Quorum Network:
+  - Consortium: Quorum/Security/Framework/Quorum Network Security/Consortium.md
+  # - Quorum Node:
+  - Overview: Quorum/Security/Framework/Quorum Network Security/Node.md
+  # - Permissioning:
+  - Network Permissioning: Quorum/Security/Framework/Quorum Network Security/Nodes/Permissioning/Network Permissioning.md
+  - Transaction Manager: Quorum/Security/Framework/Quorum Network Security/Transaction Manager.md
+  - Operational Considerations: Quorum/Security/Framework/Quorum Network Security/Opertional Considerations.md
+        # - Decentralized App:
+  - Frontend: Quorum/Security/Framework/Decentralized Application/Frontend Components.md
+  - Smart Contracts:  Quorum/Security/Framework/Decentralized Application/Smart Contracts Security.md
+  # - Privacy:
+      # - Tessera:
+  - What is Tessera: Quorum/Privacy/Tessera/Tessera.md
+  - How Tessera works: Quorum/Privacy/Tessera/How Tessera Works.md
+  # - Configuration:
+  - Overview: Quorum/Privacy/Tessera/Configuration/Configuration Overview.md
+  - Keys Config: Quorum/Privacy/Tessera/Configuration/Keys.md
+  - TLS Config: Quorum/Privacy/Tessera/Configuration/TLS.md
+  - Using CLI to override config: Quorum/Privacy/Tessera/Configuration/Using CLI to override config.md
+  - Sample Configuration: Quorum/Privacy/Tessera/Configuration/Sample Configuration.md
+          # - Tessera Services:
+  - Transaction Manager: Quorum/Privacy/Tessera/Tessera Services/Transaction Manager.md
+  - Enclave: Quorum/Privacy/Tessera/Tessera Services/Enclave.md
+              # - Keys:
+  - Key Generation: Quorum/Privacy/Tessera/Tessera Services/Keys/Keys.md
+  - Setting up Azure Key Vault: Quorum/Privacy/Tessera/Tessera Services/Keys/Setting up an Azure Key Vault.md
+  - Setting up Hashicorp Vault: Quorum/Privacy/Tessera/Tessera Services/Keys/Setting up a Hashicorp Vault.md
+          # - Usage:
+  - Interfaces & API: Quorum/Privacy/Tessera/Usage/Interface & API.md
+  - Admin Usage: Quorum/Privacy/Tessera/Usage/Admin Usage.md
+  - Monitoring: Quorum/Privacy/Tessera/Usage/Monitoring.md
+  - Migration from Constellation: Quorum/Privacy/Tessera/Migration from Constellation.md
+  - Product Roadmap: Quorum/roadmap.md
+  - FAQ: Quorum/FAQ.md
+
+  - TEST : Quorum/test.md
+
+  - What is Ledgerium: Ledgerium/What_is_Ledgerium.md
+  - Ledgerium Foundation: Ledgerium/The_Ledgerium_Foundation.md
+  - Community: Ledgerium/Community.md
+  - Latest Release: Ledgerium/The_Ledgerium_Latest_Release.md
+  - Decentralized Apps: Ledgerium/Web_3_A_platform_for_decentralized_apps.md
+  - Accessing Contracts and Transactions: Ledgerium/Accessing_Contracts_and_Transactions.md
+  - Account Management: Ledgerium/Account_Management.md
+  - Account Types, Gas, and Transactions: Ledgerium/Account_Types,_Gas,_and_Transactions.md
+  - Backup and restore accounts: Ledgerium/Backup_and_restore_accounts.md
+  - Connecting as a client: Ledgerium/Connecting_as_a_client.md
+  - Connecting to Ledgerium Core: Ledgerium/Connecting_to_Ledgerium_Core.md
+  - Connecting to Ledgerium TestNet: Ledgerium/Connecting_to_Ledgerium_TestNet.md
+  - Connecting to the Network: Ledgerium/Connecting_to_the_Network.md
+  - Consensus (Istanbul IFBT): Ledgerium/Consensus_(Istanbul_IFBT).md
+  - Consensus Mecahnism (IBFT): Ledgerium/Consensus_Mecahnism_(IBFT).md
+  - Console: Ledgerium/Console.md
+  - Contracts: Ledgerium/Contracts.md
+  - Creating an account: Ledgerium/Creating_an_account.md
+  - Creating public transactions contracts: Ledgerium/Creating_public_transactions_contracts.md
+  - DAO: Ledgerium/DAO.md
+  - Deploying smart contracts: Ledgerium/Deploying_smart_contracts.md
+  - Design: Ledgerium/Design.md
+  - EVM: Ledgerium/EVM.md
+  - FullNode vs Light Node: Ledgerium/Full_Node_vs_Light_Node.md
+  - Gas and XLG: Ledgerium/Gas_and_XLG.md
+  - GoLang: Ledgerium/GoLang.md
+  - Governance_UI: Ledgerium/Governance_UI.md
+  - Higher performance: Ledgerium/Higher_performance.md
+  - How to get XLG: Ledgerium/How_to_get_XLG.md
+  - Importing an unencrypted private_key: Ledgerium/Importing_an_unencrypted_private_key.md
+  - Installing LedgeriumCore: Ledgerium/Installing_LedgeriumCore.md
+  - Istanbul RPC API: Ledgerium/Istanbul_RPC_API.md
+  - Keyfiles: Ledgerium/Keyfiles.md
+  - Ledgerium Application: Ledgerium/Ledgerium_Application.md
+  - Ledgerium Block Explorer: Ledgerium/Ledgerium_Block_Explorer.md
+  - Ledgerium Core: Ledgerium/Ledgerium_Core.md
+  - Ledgerium Faucet: Ledgerium/Ledgerium_Faucet.md
+  - Ledgerium Test Suite: Ledgerium/Ledgerium_Test_Suite.md
+  - Ledgerium Tools: Ledgerium/Ledgerium_Tools.md
+  - Ledgerium Wallet: Ledgerium/Ledgerium_Wallet.md
+  - Ledgerium: Ledgerium/Ledgerium.md
+  - LedgeriumWeb3: Ledgerium/LedgeriumWeb3.md
+  - LedgeriumWeb3js: Ledgerium/LedgeriumWeb3js.md
+  - Manual backup restore: Ledgerium/Manual_backup_restore.md
+  - Modified privacy API: Ledgerium/Modified_privacy_API.md
+  - NodeJS: Ledgerium/NodeJS.md
+  - Peer Permissioning Governance: Ledgerium/Peer_Permissioning_Governance.md
+  - Prerequisites: Ledgerium/Prerequisites.md
+  - Privacy Transparency: Ledgerium/Privacy___Transparency.md
+  - Questions: Ledgerium/Questions.md
+  - Quorum contract design considerations: Ledgerium/Quorum_contract_design_considerations.md
+  - Quorum: Ledgerium/Quorum.md
+  - RPC: Ledgerium/RPC.md
+  - Running a Ledgerium Node: Ledgerium/Running_a_Ledgerium_Node.md
+  - Running a validator Node: Ledgerium/Running_a_validator_Node.md
+  - Sending XLG: Ledgerium/Sending_XLG.md
+  - Setting up a local private testnet: Ledgerium/Setting_up_a_local_private_testnet.md
+  - Smart Contracts: Ledgerium/Smart_Contracts.md
+  - Solidity: Ledgerium/Solidity.md
+  - Test Networks: Ledgerium/Test_Networks.md
+  - The Ledgerium network: Ledgerium/The_Ledgerium_network.md
+  - Update an account: Ledgerium/Update_an_account.md
+  - Using Ledgerium account new: Ledgerium/Using_Ledgerium_account_new.md
+  - Using Ledgerium console: Ledgerium/Using_Ledgerium_console.md
+  - Using Ledgerium: Ledgerium/Using_Ledgerium.md
+  - Viewing Contracts and Transactions: Ledgerium/Viewing_Contracts_and_Transactions.md
+  - Wallets: Ledgerium/Wallets.md
+  - What is XLG: Ledgerium/What_is_XLG.md
+  - Words: Ledgerium/Words.md
+  - XLG Reward: Ledgerium/XLG_Reward.md
+  - XLG Supply: Ledgerium/XLG_supply.md
+  - XLG: Ledgerium/XLG.md
+  - z: Ledgerium/z.md
+  - Introduction Background: Ledgerium/Introduction_Background.md
 
 # Google Analytics
 google_analytics:
