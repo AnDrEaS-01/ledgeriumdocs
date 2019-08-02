@@ -37,7 +37,7 @@ All action on the Ledgerium block chain is set in motion by transactions
 fired from externally owned accounts. Every time a contract account
 receives a transaction, its code is executed as instructed by the input
 parameters sent as part of the transaction. The contract code is
-executed by the Ledgerium Virtual Machine on each node participating in
+executed by the Ethereum Virtual Machine on each node participating in
 the network as part of their verification of new blocks.
 
 This execution needs to be completely deterministic, its only context is
@@ -110,7 +110,7 @@ What is gas?
 ------------
 
 Ledgerium implements an execution environment on the blockchain called
-the Ledgerium Virtual Machine (LVM). Every node participating in the
+the Ethereum Virtual Machine (EVM). Every node participating in the
 network runs the EVM as part of the block verification protocol. They go
 through the transactions listed in the block they are verifying and run
 the code as triggered by the transaction within the EVM. Each and every

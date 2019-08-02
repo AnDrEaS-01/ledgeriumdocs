@@ -34,9 +34,9 @@ COPY setup.py setup.py
 # Perform build and cleanup artifacts
 RUN \
   apk add --no-cache \
-    git \
-    git-fast-import \
-    openssh \
+  git \
+  git-fast-import \
+  openssh \
   && python setup.py install \
   && rm -rf /tmp/*
 

@@ -1,21 +1,12 @@
 XLG
 ===
 
-What is XLG?
-------------
-
-Ledgerium is a hybrid chain, where validators are chosen based on
-various factors. Of all possible validators, 20% will always be
-maintained by ledgerium. 40% will be given to top universities and
-public institutions, and the remaining 40% will be given to enterprises
-or the open market. This will ensure at all times, we have 60% of
-validators locked and producing blocks, no matter what the value of the
-token is. Ether is the name of the currency used within Ledgerium. It is
-used to pay for computation within the LVM. This is done indirectly by
+### **What is XLG?**  
+Ledgerium is a hybrid chain, where validators are chosen based on various factors. Of all possible validators, 20% will always be maintained by ledgerium. 40% will be given to top universities and public institutions, and the remaining 40% will be given to enterprises or the open market. This will ensure at all times, we have 60% of validators locked and producing blocks, no matter what the value of the token is. Ether is the name of the currency used within Ledgerium. It is
+used to pay for computation within the EVM. This is done indirectly by
 purchasing gas for ether as explained in gas-and-ether.
 
-### Denominations
-
+### **Denominations**  
 Ledgerium has a metric system of denominations used as units of ether.
 Each denomination has its own unique name (some bear the family name of
 seminal figures playing a role in evolution of computer science and

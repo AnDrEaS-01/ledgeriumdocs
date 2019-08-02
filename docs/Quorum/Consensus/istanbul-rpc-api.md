@@ -1,4 +1,6 @@
-# Istanbul RPC API
+* __Istanbul BFT (Byzantine Fault Tolerance) Consensus__: A PBFT-inspired consensus algorithm with transaction finality, by AMIS.  See [Istanbul BFT Consensus documentation](https://github.com/ethereum/EIPs/issues/650), the [RPC API](../istanbul-rpc-api), and this [technical web article](https://medium.com/getamis/istanbul-bft-ibft-c2758b7fe6ff) for more information
+
+## Istanbul RPC API
 This is an up to date copy of original wiki entry located here https://github.com/getamis/go-ethereum/wiki/RPC-API
 
 

@@ -11,7 +11,7 @@ What is XLG?
 > enterprises or the open market. This will ensure at all times, we have
 > 60% of validators locked and producing blocks, no matter what the
 > value of the token is. Ether is the name of the currency used within
-> Ledgerium. It is used to pay for computation within the LVM. This is
+> Ledgerium. It is used to pay for computation within the EVM. This is
 > done indirectly by purchasing gas for ether as explained in
 > gas-and-ether.
 >
